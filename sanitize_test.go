@@ -53,7 +53,7 @@ var fileNames = []Test{
 	{"../4 icon.jpg", `4-icon.jpg`},
 	{"../4 icon-testé *8%^\"'\".jpg ", `4-icon-teste-8.jpg`},
 	{"Überfluß an Döner macht schöner.JPEG", `ueberfluss-an-doener-macht-schoener.jpeg`},
-	{"Ä-_-Ü_:()_Ö-_-ä-_-ü-_-ö-_ß.webm", `ae-ue-oe-ae-ue-oe-ss.webm`},
+	{"Ä-_-Ü_:()_Ö-_-ä-_-ü-_-ö-_ß_ő ü_Ő-Ű.webm", `ae-ue-oe-ae-ue-oe-ss-oe-ue-oe-ue.webm`},
 }
 
 func TestName(t *testing.T) {
